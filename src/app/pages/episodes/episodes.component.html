@@ -1,0 +1,23 @@
+<div class="d-flex">
+  <app-sidebar
+    (result)="setResult($event)">
+  </app-sidebar>
+  <div class="container">
+    <div class="row p-3">
+      <app-busqueda
+        [titlePage]="titlePage"
+        [path]="'episode'"
+        [placeholder]="'Ingresa Numero de episodio'"
+        (result)="setResult($event)">
+      </app-busqueda>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col">
+        <app-resultados
+          [listResult]="result">
+        </app-resultados>
+      </div>
+    </div>
+  </div>
+</div>

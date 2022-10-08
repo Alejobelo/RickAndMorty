@@ -1,0 +1,10 @@
+<div>
+    <h3>Buscador de {{titlePage}}:</h3>
+    <input
+    type="text"
+    class="form-control"
+    [placeholder]="placeholder"
+    (keyup.enter)="search(txtBuscar.value)"
+    #txtBuscar>
+
+</div>

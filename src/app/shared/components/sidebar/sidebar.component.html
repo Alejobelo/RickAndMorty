@@ -1,0 +1,16 @@
+<nav class="bg-dark border-rigth p-3" id="sidebar">
+  <div class="dbtn">
+    <button class="btn btn-light"
+    [routerLink]="['']">Home</button>
+  </div>
+    <h3 class="text-light">
+      Historial de busqueda
+    </h3>
+    <div class="list-group list-reset">
+        <span *ngFor="let item of historial"
+            (click)="search(item.path, item.query, item.valueQuery)"
+            class="list-group-item list-group-item-action button-search">
+            {{ item.valueQuery | titlecase }}
+        </span>
+    </div>
+</nav>

@@ -1,0 +1,18 @@
+<div class="row" >
+    <div *ngFor="let pers of listResult"
+        class="col-md-4 col-sm-6 zoom">
+        <div  class="card">
+          <a [routerLink]="['details']"></a>
+            <img [src]="pers.image || 'assets/img/rick.jpg'" [alt]="pers.name">
+                <div class="card-body">
+                    <p class="card-text">
+                        {{pers.name | titlecase}}
+                    </p>
+
+                </div>
+        </div>
+
+
+    </div>
+
+</div>
