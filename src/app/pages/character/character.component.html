@@ -14,7 +14,7 @@
     </div>
       <hr />
       <div class="row">
-        <div class="col">
+        <div *ngIf="result.length > 0" class="col">
           <app-resultados
             [listResult]="result">
           </app-resultados>
