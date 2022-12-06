@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgifApp=self.webpackChunkgifApp||[]).push([[950],{8950:(P,s,a)=>{a.r(s),a.d(s,{PagesModule:()=>_});var l=a(6895),n=a(4020),M=a(4466),u=a(8256);let _=(()=>{class o{}return o.\u0275fac=function(E){return new(E||o)},o.\u0275mod=u.oAB({type:o}),o.\u0275inj=u.cJS({imports:[l.ez,n.M,M.m]}),o})()}}]);

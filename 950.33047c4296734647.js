@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkRickAndMorty=self.webpackChunkRickAndMorty||[]).push([[950],{950:(P,n,o)=>{o.r(n),o.d(n,{PagesModule:()=>l});var M=o(895),d=o(985),u=o(466),s=o(256);let l=(()=>{class a{}return a.\u0275fac=function(E){return new(E||a)},a.\u0275mod=s.oAB({type:a}),a.\u0275inj=s.cJS({imports:[M.ez,d.M,u.m]}),a})()}}]);
